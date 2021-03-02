@@ -96,7 +96,7 @@ const PerformanceMonitor  = () => {
     <Container>
       <Form inline className='mt-5 mb-5 justify-content-center'  onSubmit={handleSubmit}>
         <Form.Label srOnly>URL to monitor</Form.Label>
-        <Form.Control style={{flex: 0.75}} type='text' name='url' placeholder='https://www.avvo.com' onChange={handleUrlChange}/>
+        <Form.Control style={{flex: 0.75}} type='text' name='url' placeholder='https://www.example.org' onChange={handleUrlChange}/>
         <Button className='ml-3' variant='primary' type='submit' >
           Go!
         </Button>
